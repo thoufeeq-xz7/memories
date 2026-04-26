@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kallumakay - Our Moments, Our Stories</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-slideshow">
+            <div class="slide fade"></div>
+            <div class="slide fade"></div>
+            <div class="slide fade"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title fade-in-title">Kallumakay</h1>
+                <p class="hero-subtitle fade-in-subtitle">2023 - 2026 <br>"Our Moments, Our Stories, Forever"</p>
+            </div>
+            <div class="scroll-indicator fade-in-scroll">
+                <div class="mouse"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Memories</h2>
+            <div class="gallery-items" id="galleryGrid">
+                <!-- Gallery items will be dynamically loaded -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Stories Section -->
+    <section class="stories" id="stories">
+        <div class="container">
+            <h2 class="section-title">Stories & Moments</h2>
+            <div class="stories-timeline" id="storiesTimeline">
+                <!-- Stories will be dynamically loaded -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Quotes Section -->
+    <section class="quotes" id="quotes">
+        <div class="container">
+            <h2 class="section-title">Favorite Moments</h2>
+            <div class="quotes-carousel">
+                <div class="quote-card active">
+                    <p class="quote-text">"We didn't realize we were making memories, we just knew we were having fun."
+                    </p>
+                </div>
+                <div class="quote-card">
+                    <p class="quote-text">"Surround yourself with those who make you laugh a little louder, smile a
+                        little brighter."</p>
+                </div>
+                <div class="quote-card">
+                    <p class="quote-text">"Friends are the family we choose for ourselves."</p>
+                </div>
+                <div class="quote-card">
+                    <p class="quote-text">"These are the moments that become our favorite stories."</p>
+                </div>
+                <div class="quote-card">
+                    <p class="quote-text">"College friends aren't just friends; they're family away from home."</p>
+                </div>
+            </div>
+            <div class="quote-controls">
+                <button class="quote-btn prev-quote">←</button>
+                <div class="quote-dots"></div>
+                <button class="quote-btn next-quote">→</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3>Kallumakay</h3>
+                <p>Follow our journey</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/kallumakay" target="_blank" class="social-link">Instagram
+                        @kallumakay</a>
+                </div>
+                <p class="footer-credit">Made with ❤️ by thoufeeq</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-image" src="" alt="">
+        <p class="lightbox-caption"></p>
+    </div>
+
+    <!-- Music Toggle -->
+    <div class="music-toggle" id="musicToggle">
+        <button class="music-btn" title="Background Music">🎵</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

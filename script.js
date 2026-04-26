@@ -347,6 +347,12 @@ function setupScrollAnimations() {
             if (entry.isIntersecting) {
                 entry.target.style.opacity = '1';
                 entry.target.style.transform = 'translateY(0)';
+                
+                // Add color effect to images on scroll
+                const img = entry.target.querySelector('img');
+                if (img) {
+                    img.classList.add('color-on-scroll');
+                }
             }
         });
     }, {
